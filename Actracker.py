@@ -400,7 +400,7 @@ def Open_Promise_Window():
         Promise_Text = Promise_Box.get().strip()
         
         if not Promise_Text: 
-            tk.messagebox.showwarning("Empty Field", "Por favor, ingresa una actividad para continuar.")
+            tk.messagebox.showwarning("Campo vacío", "Por favor, ingresa una actividad para continuar.")
             return
 
         Period = {
